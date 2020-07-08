@@ -6,7 +6,7 @@ Satus de usu.
 ```plaintext
 prj/
 │
-└── app.py
+└── hello.py
 ```
 
 ## Install && Run
@@ -16,7 +16,7 @@ pip install -U Flask
 ```
 
 ```bash
-flask run
+flask --app hello run
 ```
 
 
