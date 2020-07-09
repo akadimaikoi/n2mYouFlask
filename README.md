@@ -6,7 +6,12 @@ Satus de usu.
 ```plaintext
 prj/
 │
-└── hello.py
+├── run.py
+│
+└── api/
+    ├── __init__.py
+    └── controllers/
+        └── hello_controller.py
 ```
 
 ## Install && Run
@@ -16,7 +21,7 @@ pip install -U Flask
 ```
 
 ```bash
-flask --app hello run
+flask --app api run
 ```
 
 
