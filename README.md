@@ -10,8 +10,12 @@ prj/
 │
 └── api/
     ├── __init__.py
-    └── controllers/
-        └── hello_controller.py
+    ├── controllers/
+    │   ├── __init__.py
+    │   └── hello_controller.py
+    └── models/
+		├── __init__.py
+		└── response_model.py
 ```
 
 ## Install && Run
