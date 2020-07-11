@@ -7,6 +7,7 @@ Satus de usu.
 prj/
 │
 ├── run.py
+├── .flaskenv
 │
 └── app/
     ├── __init__.py
@@ -42,6 +43,6 @@ flask run
 
 🌐 Docs
 
-[Main](https://flask.palletsprojects.com/en/3.0.x/)
-[PyPI](https://pypi.org/project/Flask/)
-[src](https://github.com/pallets/flask/)
++ [Main](https://flask.palletsprojects.com/en/3.0.x/)
++ [PyPI](https://pypi.org/project/Flask/)
++ [src](https://github.com/pallets/flask/)
