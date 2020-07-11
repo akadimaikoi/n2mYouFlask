@@ -8,14 +8,25 @@ prj/
 │
 ├── run.py
 │
-└── api/
+└── app/
     ├── __init__.py
     ├── controllers/
     │   ├── __init__.py
+    │   ├── main_controller.py
+    │   ├── answer_controller.py
     │   └── hello_controller.py
-    └── models/
-		├── __init__.py
-		└── response_model.py
+    ├── models/
+    │   ├── answer_model.py
+    │   └── response_model.py
+    ├── services/
+    │   ├── main_service.py
+    │   └── answer_service.py
+    ├── templates/
+    │   └── index.html
+    └── static/
+		└── css/
+			└── style.css
+
 ```
 
 ## Install && Run
@@ -25,7 +36,7 @@ pip install -U Flask
 ```
 
 ```bash
-flask --app api run
+flask run
 ```
 
 
